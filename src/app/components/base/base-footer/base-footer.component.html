@@ -1,0 +1,4 @@
+<footer [ngClass]="{revealed}">
+    <ng-content>Default Content</ng-content>
+</footer>
+<app-base-button low (click)="revealed ? hide() : reveal()">{{ revealed ? '⬇' : '⬆'}}</app-base-button>

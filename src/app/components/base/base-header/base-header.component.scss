@@ -1,0 +1,13 @@
+header{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--cnmss-medium);
+    color: white;
+    min-height: 50px;
+    transition: background-color .5s ease;
+}
+
+.connection-lost{
+    background-color: var(--cnmss-high); 
+}

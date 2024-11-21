@@ -1,0 +1,4 @@
+<header [ngClass]=" !online ? 'connection-lost' : '' ">
+    <h1>{{online ? 'Application' : 'Connection lost,  application may not work ! '}}</h1>
+    <div><ng-content/></div>
+</header>

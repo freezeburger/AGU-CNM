@@ -1,0 +1,28 @@
+button{
+    cursor: pointer;
+    margin: 3px;
+    border: none;
+    border-radius: 5px;
+    height: 45px;
+    min-width:100px;
+    color:white;
+    background-color: var(--cnmss-medium);
+    transform: scale(1);
+    transition: all .3s ease;
+}
+
+button:hover{
+    transform: scale(1.05);
+}
+
+button:active{
+    transform: scale(0.9);
+}
+
+.high{
+    background-color: var(--cnmss-high);
+}
+
+.low{
+    background-color: var(--cnmss-low);
+}

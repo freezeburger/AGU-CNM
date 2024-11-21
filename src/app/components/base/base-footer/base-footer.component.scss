@@ -1,0 +1,35 @@
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: var(--cnmss-low);
+    color: white;
+    height: 100px;
+    position: absolute;
+    width: 100vw;
+    bottom:0;
+    box-sizing: border-box;
+    padding:5px;
+
+    transition: bottom .5s ease;
+}
+
+app-base-button{
+    display: none;
+}
+
+footer.revealed{
+    bottom:0;
+}
+
+@media (max-height: 512px) {
+    footer{
+        bottom:-100px;
+    }
+    app-base-button{
+        display: block;
+        position: absolute;
+        bottom:0;
+        right:0;
+    }
+}
+
